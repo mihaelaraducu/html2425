@@ -2,5 +2,5 @@
 ```
 touch README.md
 ```
-I. Primul Capitol
-II. Modificare de pe GitHub
+1. Primul Capitol
+2. Modificare de pe GitHub
