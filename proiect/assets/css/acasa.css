@@ -1,0 +1,28 @@
+body {
+    margin: 0; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+
+header {
+    text-align: center;
+    background-color: beige;
+    color: brown;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(113, 75, 75);
+}
+
+footer {
+    text-align: center;
+    background-color: beige;
+    color: brown;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
