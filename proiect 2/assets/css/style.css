@@ -14,7 +14,7 @@ nav{
 nav ul {
     height: 30px;
     padding: 60px 0px;
-    background-color: rgba(11, 105, 98, 0.644);
+    background-color: rgba(47, 4, 106, 0.689);
 }
 nav ul li{
     display: inline;
@@ -22,7 +22,7 @@ nav ul li{
     list-style: none;
 }
 nav ul li:hover,nav ul li.active{
-    background-color: rgba(140, 233, 202, 0.536);
+    background-color: rgba(37, 4, 91, 0.536);
 }
 nav ul li:hover{
     color: aqua;
@@ -39,7 +39,7 @@ nav ul li a{
 #banner{
     width: 100%;
     height: 600px;
-    background-image: url(../images/banner.gif);
+    background-image: url(../images/banner3.gif);
 }
 #banner h1{
     color:#ffffff;
@@ -64,4 +64,36 @@ nav ul li a{
     display: inline-block;
     margin: 20px;
     max-width: 400px;
+}
+/* Culoare text pentru fraze colorate */
+.colorat {
+    color: rgb(24, 10, 220);
+    font-weight: bold;
+}
+
+/* Îngroșarea textului */
+strong {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+/* Stilizare lista ordonată */
+ol {
+    margin-left: 20px; /* Distanță pentru a face lista mai lizibilă */
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/* Stilizare lista neordonată */
+ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/* Stilizarea paragrafului pentru a adăuga spațiu între ele */
+p {
+    margin-bottom: 20px; /* Spațiu mai mare între paragrafe */
+    line-height: 1.6; /* Înălțime a liniei pentru a face textul mai ușor de citit */
+    font-size: 20px; /* Modifică dimensiunea textului aici */
 }
