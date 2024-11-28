@@ -1,0 +1,12 @@
+4
+5
+inline, embed/intern, extern
+insensitive
+font-family; font-size; font display
+z-index functioneaza numai pe elementele pozitionate 
+elemente inline vor lua doar latimea necesara, de ex. <span>, <a>
+2
+3
+1
+id - unic pe pgina, class - o putem folosi la mai multe elemente; ambii nu suporta spatiu; ...
+
