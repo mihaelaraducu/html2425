@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs 6 aplicatia 3</title>
+    <link rel="stylesheet" href="./css/ap3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formular contact</h1>
+        <form action="#" method="post">
+            <label for="oras">Orasul:</label>
+            <select id="oras" name="oras">
+                <option>Selecteaza</option>
+                <option>Bucuresti</option>
+                <option>Cluj-Napoca</option>
+                <option>Timisoara</option>
+                <option>Iasi</option>
+            </select>
+
+            <label for="cursuri">Cursuri la care doriti să vă inscrieti:</label>
+            <select id="cursuri" name="cursuri" multiple>
+                <option>PHP</option>
+                <option>HTML</option>
+                <option>JAVA</option>
+                <option>Photoshop</option>
+            </select>
+
+            <label for="mesaj">Mesaj:</label>
+            <textarea id="mesaj" name="mesaj" rows="4"></textarea>
+
+            <label for="cv">CV:</label>
+            <input type="file" id="cv" name="cv">
+
+            <fieldset>
+                <legend>Program cursuri:</legend>
+                <label><input type="radio" name="program" value="dimineata"> Dimineata</label>
+                <label><input type="radio" name="program" value="pranz"> La pranz</label>
+                <label><input type="radio" name="program" value="seara"> Seara</label>
+            </fieldset>
+
+            <div class="checkboxes">
+                <label><input type="checkbox" name="termeni"> Termeni si conditii</label>
+                <label><input type="checkbox" name="newsletter"> Va abonati la newsletter</label>
+            </div>
+
+            <button type="submit">Trimite datele</button>
+        </form>
+    </div>
+</body>
+</html>

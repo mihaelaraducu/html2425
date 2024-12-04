@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs 6 aplicatia 4</title>
+    <link rel="stylesheet" href="./css/ap4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formular Livrare</h1>
+        <form id="livrareForm">
+            <fieldset>
+                <legend>Card</legend>
+                <label for="cardNumber">Numar card:</label>
+                <input type="text" id="cardNumber" name="cardNumber" required>
+
+                <label for="expDate">Data expirare:</label>
+                <input type="text" id="expDate" name="expDate" placeholder="mm / dd / yyyy" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Livrare</legend>
+                <label for="prenume">Prenume:</label>
+                <input type="text" id="prenume" name="prenume" placeholder="Introduceti prenumele" required>
+
+                <label for="nume">Nume:</label>
+                <input type="text" id="nume" name="nume" placeholder="Introduceti numele" required>
+
+                <label for="companie">Companie:</label>
+                <input type="text" id="companie" name="companie" placeholder="Introduceti numele companiei" required>
+
+                <label for="adresa">Adresa:</label>
+                <input type="text" id="adresa" name="adresa" required>
+
+                <label for="oras">Oras:</label>
+                <input type="text" id="oras" name="oras" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefon">Telefon:</label>
+                <input type="tel" id="telefon" name="telefon" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Adauga produse</legend>
+                <label for="masina">Masina:</label>
+                <select id="masina" name="masina">
+                    <option value="volvo">Volvo</option>
+                    <option value="bmw">BMW</option>
+                    <option value="audi">Audi</option>
+                </select>
+
+                <label for="mesaj">Mesaj:</label>
+                <textarea id="mesaj" name="mesaj" rows="4"></textarea>
+            </fieldset>
+
+            <button type="submit">Trimite</button>
+        </form>
+    </div>
+</body>
+</html>
