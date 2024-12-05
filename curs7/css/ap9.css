@@ -1,0 +1,42 @@
+/* General styles */
+table {
+    width: 100%;
+    border-spacing: 1px; /* Spațiu între celule */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* Margini subțiri la celule */
+}
+
+/* Header row */
+th {
+    background-color: #B27C9D;
+    color: white;
+}
+
+/* Body rows with alternating colors */
+tbody tr:nth-child(odd) {
+    background-color: #E0A5D9; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #5E90A2; 
+}
+
+/* Footer rows */
+tfoot tr:first-child {
+    background-color: #7F4D76; 
+    color: white;
+}
+
+tfoot tr:last-child {
+    background-color: #5A8A42; 
+    color: white;
+}
+
+/* Colspan for the last row */
+tfoot tr:last-child td:first-child {
+    text-align: center; /* Aliniere centrală pentru textul "Total" */
+}
